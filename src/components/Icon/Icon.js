@@ -1,7 +1,11 @@
 import React from 'react';
-import {listData} from '../../data/dataStore';
-import ReactHtmlParser from 'react-html-parser';
+import PropTypes from 'prop-types';
+
 
 const Icon = props => (<i className={`fas fa-${props.name}`}></i>);
+
+Icon.propTypes = {
+  name: PropTypes.string,
+};
 
 export default Icon;
