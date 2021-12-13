@@ -50,13 +50,6 @@
     "webpack-cli": "^3.2.1",
     "webpack-dev-server": "^3.1.14",
     "webpack-merge": "^4.2.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/PrzemekMM/React.git"
-  },
-  "bugs": {
-    "url": "https://github.com/PrzemekMM/React/issues"
-  },
-  "homepage": "https://github.com/PrzemekMM/React#readme"
+  }
+
 }
