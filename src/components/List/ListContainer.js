@@ -1,6 +1,7 @@
+
 import {connect} from 'react-redux';
 import List from './List';
-import { getColumnsForList, createActionAddColumn } from './cardsRedux';
+import { getColumnsForList, createActionAddColumn } from '../../redux/ColumnRedux';
 
 // export const getColumnsForList = ({columns}, listId) => columns.filter(column => column.listId == listId);
 
